@@ -46,7 +46,7 @@ function TodoList() {
               <h3
                 key={item.id}
                 className={` uppercase font-medium text-3xl bg-white w-full box-border break-all px-2  ${
-                  item.isChecked ? "bg-red-500 line-through" : "bg-white"
+                  item.isChecked ? "bg-green-500 line-through" : "bg-white"
                 }`}
               >
                 {item.title}
